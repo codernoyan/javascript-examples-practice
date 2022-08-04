@@ -41,6 +41,6 @@ function assignmentSubmitted(assignments) {
     let assignmentLength = assignmentMarks.length;
     return assignmentLength;
 }
-
+// result
 const submitted = assignmentSubmitted(assignmentMarks);
 console.log("Assignment you have submitted: ", submitted);
